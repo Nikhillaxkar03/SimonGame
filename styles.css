@@ -51,3 +51,22 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+.strBtn{
+  font-size: 2rem;
+    padding: 20px;
+    visibility: hidden;
+    color: white;
+    margin: auto;
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid white;
+}
+.strBtn:active{
+  background-color: red;
+}
+
+@media screen and (min-width: 800px){
+  .strBtn {
+    margin: 30px;
+    visibility: visible;
+  }
+}
