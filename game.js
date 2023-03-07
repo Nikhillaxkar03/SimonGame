@@ -18,7 +18,7 @@ $(document).on('keydown', ()=>{
     gameStarted = true;
 }
 })
-$('.strBtn').on('click', ()=>{
+$(".strBtn").on('click', ()=>{
     if(gameStarted === false) {
     $('#level-title').text("Level " + level);
     nextSequence();
