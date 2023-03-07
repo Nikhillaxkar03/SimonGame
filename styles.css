@@ -52,21 +52,92 @@ body {
   background-color: grey;
 }
 .strBtn{
-  font-size: 2rem;
+    font-size: 2rem;
     padding: 20px;
-    visibility: hidden;
     color: white;
     margin: auto;
     font-family: 'Press Start 2P', cursive;
     border: 2px solid white;
+    display: none;
 }
 .strBtn:active{
   background-color: red;
 }
 
-@media screen and (min-width: 800px){
+@media screen and (max-width: 900px) {
   .strBtn {
     margin: 30px;
-    visibility: visible;
-  }
+    display: inline-block;
+}
+}body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+.strBtn{
+    font-size: 2rem;
+    padding: 20px;
+    color: white;
+    margin: auto;
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid white;
+    display: none;
+}
+.strBtn:active{
+  background-color: red;
+}
+
+@media screen and (max-width: 900px) {
+  .strBtn {
+    margin: 30px;
+    display: inline-block;
+}
 }
